@@ -1,24 +1,23 @@
 package Java;
 import java.util.Scanner;
+
 public class java4 {
-    public static void main (String[]arg){
+
+    public static void main (String[]args){
         Scanner sc = new Scanner(System.in);
 
-        int a = sc.nextInt();
+        System.out.print("Enter a Number ");
+        if (sc.hasNextInt()){
+            
+            int a = sc.nextInt();
 
-        if (a >=0 ){
-            System.out.println("Number is positive ");
-        }else if (a <=0 ){
-            System.out.println("Number is Negative");
+            if ( a > 0){
+                System.out.println("It a +"); 
+            }else {
+                System.out.println("its a -");
+            }
         }else{
-            System.out.println("Invaid Output");
-
-        }
-
-    catch (Exception e){
-        System.out.println("Bha Try karte raho ");
-    }
-
-        sc.close();
-    }
+            System.out.println("Invalllid Okay ");
+        }sc.close();
+    } 
 }
