@@ -1,3 +1,4 @@
+//Largest three number
 package Java.Day1;
 import java.util.Scanner;
 
@@ -13,9 +14,9 @@ public class java5 {
 
             if( a > b && a > c){
                 System.out.println("A is largest ");
-            }else if (b > a || b > c) {
+            }else if (b > a && b > c) {
                 System.out.println("B is largest");
-            }else {
+            }else if {
                 System.out.println("C is LArgest ");
             } sc.close();
         } else {
