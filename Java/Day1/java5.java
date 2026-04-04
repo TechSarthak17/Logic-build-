@@ -1,5 +1,6 @@
 //Largest three number
 package Java.Day1;
+import java.nio.channels.Pipe.SourceChannel;
 import java.util.Scanner;
 
 
@@ -16,8 +17,10 @@ public class java5 {
                 System.out.println("A is largest ");
             }else if (b > a && b > c) {
                 System.out.println("B is largest");
-            }else if {
+            }else if (c > a && c > b ) {
                 System.out.println("C is LArgest ");
+            }else if ( a == b || b == c | c == a ){
+                System.out.println("There is something similar in this");
             } sc.close();
         } else {
             System.out.println("Invalid dinput");
