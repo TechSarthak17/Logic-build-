@@ -1,4 +1,4 @@
-package Java;
+package Java.Day1;
 import java.nio.channels.Pipe.SourceChannel;
 import java.util.Scanner;
 
@@ -14,5 +14,6 @@ public class java2 {
         int sum = a + b ;
         System.out.print("Your sum is there ");
         System.out.println(sum);
+    
     }
 }

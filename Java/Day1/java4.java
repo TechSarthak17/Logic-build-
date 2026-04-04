@@ -1,4 +1,6 @@
-package Java;
+//Number is + 0r - 
+
+package Java.Day1;
 import java.util.Scanner;
 
 public class java4 {

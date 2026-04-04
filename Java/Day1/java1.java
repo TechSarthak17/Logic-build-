@@ -1,4 +1,4 @@
-package Java;
+package Java.Day1;
 
 public class java1 {
 

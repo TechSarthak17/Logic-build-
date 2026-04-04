@@ -1,5 +1,5 @@
 //Check Leap Year 
-package Java;
+package Java.Day1;
 import java.util.Scanner;
 public class java7 {    
     public static void main (String[]args){
