@@ -1,3 +1,4 @@
+//Factorial of a Number
 package Java.Day2;
 import java.util.Scanner;
 

@@ -1,3 +1,4 @@
+//Sum of First N Numbers
 package Java.Day2;
 import java.util.Scanner;
 

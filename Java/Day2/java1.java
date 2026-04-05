@@ -1,3 +1,4 @@
+//Print numbers 1 to N
 package Java.Day2;
 import java.util.Scanner;
 
