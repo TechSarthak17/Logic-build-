@@ -1,8 +1,15 @@
 package Java.Check;
+import java.util.Scanner;
 
-public class Check {
+class check {
+    public static void main (String[]arg){
+        Scanner sc = new Scanner(System.in);
 
-    public static void main (String[]agr){
-    System.out.println("Hello bro");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        int sum = a+b;
+
+        System.out.println(sum);
     }
 }
