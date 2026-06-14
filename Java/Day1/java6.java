@@ -1,7 +1,7 @@
+// Divide by 11 and 5
 package Java.Day1;
 import java.util.Scanner;
 
-import javax.xml.transform.Source;
 public class java6 {
     public static void main (String[]args){
 
