@@ -1,15 +1,24 @@
 package Java.Check;
 import java.util.Scanner;
 
-class check {
+class Check {
     public static void main (String[]arg){
         Scanner sc = new Scanner(System.in);
 
+        
+
+       if (sc.hasNext()){
         int a = sc.nextInt();
-        int b = sc.nextInt();
 
-        int sum = a+b;
+        if ( a%2 == 0 ){
+            System.out.println("This is even number");
+        }if (a%2 != 0 ){
+            System.out.println("This is odd numbber");
+        }
+       }else {
+        System.out.println("Invalid input");
+       }
 
-        System.out.println(sum);
+       sc.close();
     }
 }
