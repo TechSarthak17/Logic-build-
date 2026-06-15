@@ -1,24 +1,26 @@
 package Java.Check;
 import java.util.Scanner;
 
-class Check {
+class check {
+
     public static void main (String[]arg){
+
         Scanner sc = new Scanner(System.in);
 
-        
+        if(sc.hasNext()){
 
-       if (sc.hasNext()){
-        int a = sc.nextInt();
+            int a = sc.nextInt();
 
-        if ( a%2 == 0 ){
-            System.out.println("This is even number");
-        }if (a%2 != 0 ){
-            System.out.println("This is odd numbber");
-        }
-       }else {
-        System.out.println("Invalid input");
-       }
+            for(int i=0 ;i<=5 ;i++ ){
 
-       sc.close();
+                System.out.println(i);
+
+            }
+
+        }else {
+            System.out.println("Invalid input");
+        }sc.close();
+    
     }
+
 }
