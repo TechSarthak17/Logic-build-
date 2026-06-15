@@ -1,23 +1,21 @@
-//Sum of First Number 
-
 package Java.Check;
+
 import java.util.Scanner;
+
 class Check {
-    public static void main (String[]arg){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.err.println("Enter a number");
 
         if(sc.hasNext()){
 
-            
             int a = sc.nextInt();
-            int sum = 0;
+            int digit ;
 
-            for (int i = 0 ; i<=a ;i++){
-                sum = sum+ i ;
+            while (a != 0) {
+                digit = a %10;
+                System.out.println(digit);
+                a = a/10;
             }
-            System.out.println("Your Out put is " + sum + "");
         }
-        sc.close();
     }
 }
