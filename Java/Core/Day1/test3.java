@@ -18,7 +18,6 @@ public class test3 {
     public void example() {
         int age = 25;          // Local variable
         String studentName = "John";  // Local variable
-
         System.out.println("Age: " + age);
         System.out.println("Name: " + studentName);
     }
