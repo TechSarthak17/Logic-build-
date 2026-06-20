@@ -39,7 +39,10 @@ public class test8 {
         if (this.eye == 1) {
             System.out.println("See thoda thoda");
         }
-
+        //hoga bhai likh kuch bhi jo likhwa rahe hai tujhe bas likhne mein focus karna hai okay 
+        //dhuan rakh dono baato ka sir bhi aarahe hai or me bhi aaraha hu 
+        //bhai dekh mujhhhe pura bharosa hai ki nhi hoga ese nhi hota hai but sir keh rahe hote hai to
+        //hota he hoga na sir galat thodi na bolenge hena sarthak bhai 
         if (this.eye == 0) {
             System.out.println("Can't see anything");
         }
