@@ -36,7 +36,9 @@ public class test3 {
 
         student1.example();
         student1.display();
-
+        //According to me esa nhi hona chahaiye tha me yaha aagya acha hai ab ache se sikh ke jaunga 
+        //sikh toh sakta hu me kyuki abhi toh thoda bahut toh aata hai lekin aage or ache se dyan dena 
+        //padega varna phir baad ka sab mere dimmag se upper jayega 
         System.out.println("Total Students: " + totalStudents);
     }
 }
